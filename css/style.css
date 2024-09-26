@@ -1,0 +1,221 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding-left: 10px;
+    align-items: center;
+    max-width: 100%;
+}
+
+form {
+    background-color: white;
+    padding-left: 550px;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+div {
+    margin-bottom: 16px;
+}
+
+.pname,
+.pquantity,
+.pprice,
+textarea
+ {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+
+.pimage{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.submit {
+    width: 40%;
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* General body styling */
+body.newbody {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Styling for the heading */
+h1.newhead {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjusted size for better balance */
+    font-weight: bold;
+}
+
+/* Styling for the form */
+form.newform {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Slight shadow for emphasis */
+}
+
+/* Search bar styling */
+.newtext {
+    width: 30%; /* Slightly larger for clarity */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Action buttons */
+td:last-child {
+    text-align: center;
+}
+
+td:last-child a {
+    margin-right: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+td:last-child a.edit {
+    background-color: #28a745;
+}
+
+td:last-child a.delete {
+    background-color: #dc3545;
+}
+
+/* Styling for product details */
+h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/* Reviews styling */
+.reviews {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.reviews p {
+    font-size: 16px;
+    margin-left: 0;
+}
+
+/* Star rating styling */
+.star-rating {
+    color: #f1c40f;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.star-rating span {
+    margin-right: 5px;
+}
+
+
+a.btn-edit {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Styling for the Delete button */
+a.btn-delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hover effects for buttons */
+a.btn-edit:hover {
+    background-color: #218838;
+}
+
+a.btn-delete:hover {
+    background-color: #c82333;
+}
+
+
+
+
